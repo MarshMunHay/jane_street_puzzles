@@ -4,4 +4,4 @@ WORKDIR /project
 RUN apt-get update && apt-get -y install cmake protobuf-compiler
 
 COPY ./requirements.txt /project/
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
